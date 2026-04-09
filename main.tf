@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "nova-tf-state907081"
+    bucket = "s3new-tf-state907081"
     key    = "ec2/terraform.tfstate"
-    region = "ap-south-1"
+    region = "us-east-2"
   }
 }
 
